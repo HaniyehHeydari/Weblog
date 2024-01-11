@@ -7,8 +7,13 @@
     height: 100px;
     background-color: whitesmoke;
 }
+.logo{
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+}
 .search{
-    width: 300px;
+    width: 20%;
     height: 40px;
     border: 1px solid gray;
     border-radius: 10px;
@@ -18,13 +23,19 @@
     background-size: 30px;
     background-color: white;
     margin-bottom: 30px;
-    margin-left: 20px;
+    margin-left: 2%;
     top: 30px;
     position: fixed;
+    text-align: right;
+    font-size: 25px;
+    padding-right: 10px;
+}
+.search:hover{
+    cursor: text;
 }
 .login{
-    width: 120px;
-    height: 25px;
+   width: 8%;
+   height: 25px;
    float: right;
    margin-top: 25px;
    margin-right: 20px;
@@ -32,13 +43,22 @@
    border: 3px dashed black;
    display: flex;
    color: black;
-   column-gap: 20px;
+   column-gap: 15%;
    font-weight: 900;
    font-size: 22px;
-   padding: 10px 20px;
+   padding: 10px 20px 10px 10px ;
+   background: url(./img/User.png);
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: 30px;
+
 }
-.blog{
-    width: 200px;
-    height: 100px;
-    margin-bottom: 10px;
+.login:hover{
+    cursor: pointer;
+}
+.login a{
+    text-decoration: none;
+}
+.login a:visited{
+    color: black;
 }
