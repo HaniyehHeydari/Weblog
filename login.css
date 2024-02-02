@@ -10,7 +10,6 @@
     url("./Font/IRANSans/WebFonts/fonts/ttf/IRANSansWeb(FaNum)_UltraLight.ttf")
       format("ttf");
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -20,9 +19,9 @@ body {
 }
 .register {
   width: 30%;
-  height: 600px;
+  height: 434px;
   margin-left: 470px;
-  margin-top: 30px;
+  margin-top: 120px;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.13);
   backdrop-filter: blur(5px);
@@ -30,21 +29,19 @@ body {
   display: flex;
   flex-direction: column;
 }
-input {
+input,
+button {
   width: 80%;
   height: 50px;
   float: right;
   text-align: right;
-  margin-bottom: 30px;
+  margin-top: 30px;
   margin-left: 35px;
   border-radius: 30px;
   font-size: 20px;
   padding-right: 10px;
   border: none;
   background-color: rgba(255, 255, 255, 0.27);
-}
-input:focus {
-  outline: none;
 }
 ::-webkit-input-placeholder {
   color: rgb(0, 0, 0);
@@ -54,15 +51,6 @@ input:focus {
   padding-right: 10px;
 }
 button {
-  width: 80%;
-  height: 50px;
-  float: right;
-  text-align: right;
-  margin-left: 35px;
-  border-radius: 30px;
-  font-size: 20px;
-  padding-right: 10px;
-  border: none;
   background-color: white;
   text-align: center;
   font-size: 25px;
@@ -71,8 +59,8 @@ button {
 }
 label {
   font-size: 15px;
+  margin-top: 15px;
   font-weight: 700;
-  margin-top: 10px;
   text-align: center;
   font-family: "IranSans" !important;
 }
@@ -86,7 +74,8 @@ a {
   text-decoration: none;
   color: blue;
 }
-a:visited, a:focus {
+a:visited,
+a:focus {
   text-decoration: none;
   color: blue;
 }

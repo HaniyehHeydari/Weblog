@@ -30,6 +30,9 @@
     font-size: 25px;
     padding-right: 10px;
 }
+input:focus{
+    outline:none;
+}
 .search:hover{
     cursor: text;
 }
