@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: whitesmoke;
+}
+.logo {
+  width: 200px;
+  height: 100px;
+}
+.search input {
+  width: 30%;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 30px;
+  margin-left: 250px;
+  top: 30px;
+  position: fixed;
+  text-align: right;
+  font-size: 25px;
+  padding-right: 10px;
+}
+.search button {
+  position: absolute;
+  left: 251px;
+  top: 31px;
+  width: 52px;
+  height: 40px;
+  border: 0;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  background: #1c9650;
+}
+input:focus {
+  outline: none;
+}
+input:hover {
+  cursor: text;
+}
+.profile {
+  width: 4%;
+  height: 25px;
+  float: right;
+  border-radius: 10px;
+  border: 3px dashed black;
+  color: black;
+  font-weight: 900;
+  font-size: 22px;
+  padding: 10px 15px;
+  right: 0;
+  position: fixed;
+}
+.profile:hover {
+  cursor: pointer;
+}
+.profile a {
+  text-decoration: none;
+}
+.profile a:visited {
+  color: black;
+}
