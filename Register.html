@@ -9,13 +9,21 @@
   <body>
     <form class="register">
       <h1>ثبت نام</h1>
-      <input placeholder="نام" />
+      <input class="name" placeholder="نام" />
       <input placeholder=" نام خانوادگی" />
       <input placeholder="کدملی" />
       <input placeholder="تاریخ تولد" />
       <input placeholder="شماره تماس" />
-      <button>ثبت نام</button>
+      <button id="save">ثبت نام</button>
       <label>حساب کاربری دارید؟ <a href="./login.html">ورود</a></label>
     </form>
+
+    <!-- <script>
+     let name=document.getElementsByClassName("name");
+      
+     document.querySelector("#save").addEventListener('click', function(){
+      localStorage.setItem("name", name.value)
+     })
+    </script> -->
   </body>
 </html>
