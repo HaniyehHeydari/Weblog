@@ -17,7 +17,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-.register {
+.login {
   width: 30%;
   height: 434px;
   margin-left: 470px;
@@ -42,6 +42,9 @@ button {
   padding-right: 10px;
   border: none;
   background-color: rgba(255, 255, 255, 0.27);
+}
+input:focus{
+  outline: none;
 }
 ::-webkit-input-placeholder {
   color: rgb(0, 0, 0);
