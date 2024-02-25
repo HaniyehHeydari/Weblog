@@ -60,6 +60,9 @@ button {
   font-weight: 900;
   font-family: "IranSans" !important;
 }
+button:hover{
+  cursor: pointer;
+}
 label {
   font-size: 15px;
   margin-top: 15px;

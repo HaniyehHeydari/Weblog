@@ -1,3 +1,15 @@
+@font-face {
+  font-family: IranSans;
+  src: url("./Font/IRANSans/WebFonts/fonts/eot/IRANSansWeb(FaNum)_UltraLight.eot");
+  src: url("./Font/IRANSans/WebFonts/fonts/eot/IRANSansWeb(FaNum)_UltraLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("./Font/IRANSans/WebFonts/fonts/woff2/IRANSansWeb(FaNum)_UltraLight.woff2")
+      format("woff2"),
+    url("./Font/IRANSans/WebFonts/fonts/woff/IRANSansWeb(FaNum)_UltraLight.woff")
+      format("woff"),
+    url("./Font/IRANSans/WebFonts/fonts/ttf/IRANSansWeb(FaNum)_UltraLight.ttf")
+      format("ttf");
+}
 * {
   padding: 0;
   margin: 0;
@@ -6,6 +18,7 @@
   width: 100%;
   height: 100px;
   background-color: whitesmoke;
+  display: flex;
 }
 .logo {
   width: 200px;
@@ -18,7 +31,7 @@
   border-radius: 10px;
   background-color: white;
   margin-bottom: 30px;
-  margin-left: 250px;
+  margin-left: 50px;
   top: 30px;
   position: fixed;
   text-align: right;
@@ -36,11 +49,36 @@
   border-bottom-left-radius: 7px;
   background: #1c9650;
 }
+::-webkit-input-placeholder {
+  font-family: "IranSans" !important;
+  font-weight: 900;
+  font-size: 20px;
+}
 input:focus {
   outline: none;
 }
 input:hover {
   cursor: text;
+}
+.add{
+  width: 7%;
+  height: 25px;
+  margin-top: 25px;
+  background-color: #1c9650;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  font-weight: 900;
+  font-size: 17px;
+  border-radius: 10px;
+  margin-right: 250px;
+  margin-top: 29px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  font-family: "IranSans" !important;
+}
+.add:hover{
+  cursor: pointer;
 }
 .profile {
   width: 4%;
@@ -50,13 +88,14 @@ input:hover {
   border: 3px dashed black;
   color: black;
   font-weight: 900;
-  font-size: 22px;
+  font-size: 19px;
   padding: 10px 15px;
   margin-right: 30px;
   margin-top: 20px;
   right: 0;
   top: 0;
   position: fixed;
+  font-family: "IranSans" !important;
 }
 .profile:hover {
   cursor: pointer;
